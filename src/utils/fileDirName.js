@@ -6,3 +6,4 @@ export default function fileDirName(meta) {
   const __dirname = dirname(__fileName);
   return { __dirname, __fileName };
 }
+
