@@ -4,7 +4,6 @@ import { socketServer } from "../socket/configure-socket.js";
 let productManager = new ProductManager("src/database/productos.json");
 
 const route = Router();
-
 route.get("", async (req, res) => {
   const limite = req.query.limit;
 
