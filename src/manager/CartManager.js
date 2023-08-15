@@ -5,7 +5,6 @@ export default class CartManager {
   constructor(path) {
     try {
       this.prodManag = new ProductManager("src/database/productos.json");
-
       this.carritos = [];
       this.path = path;
       if (!fs.existsSync(path)) {
