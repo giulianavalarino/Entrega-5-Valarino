@@ -1,6 +1,5 @@
 const socket = io();
 socket.emit("nuevaConexion", "Conexión establecida");
-
 socket.on("mensajePost", (data) => {
   actualizarTabla(data);
 });
