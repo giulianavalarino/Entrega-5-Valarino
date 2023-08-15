@@ -3,7 +3,6 @@ import CartManager from "../manager/CartManager.js";
 let cartManager = new CartManager("src/database/carritos.json");
 
 const route = Router();
-
 route.post('', async (req, res) => {
   res.send(await cartManager.addCart());
 });
