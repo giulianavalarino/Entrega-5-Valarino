@@ -10,9 +10,6 @@ const { __dirname } = fileDirName(import.meta);
 
 
 
-
-
-
 //EXPRESS
 const app = express();
 const port = 8080;
