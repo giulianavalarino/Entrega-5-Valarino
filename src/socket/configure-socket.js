@@ -8,10 +8,6 @@ export default function configureSocket(httpServer) {
 
     socket.on("nuevaConexion", (data) => {
       console.log("Nueva conexion:", data);
-    });
-
-   
-  });
-
-  
+    });  
+  });  
 }
